@@ -10,7 +10,6 @@ export const postUser = (user) => (
     })
 );
 
-
 //login
 export const postSession = (user) => (
     $.ajax({
@@ -19,7 +18,6 @@ export const postSession = (user) => (
         data: { user },  //creates a new session with the user being logged in
     })
 );
-
 
 //logout
 export const deleteSession = () => (
